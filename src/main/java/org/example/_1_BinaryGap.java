@@ -12,7 +12,7 @@ import java.util.Collections;
 // The number 20 has binary representation 10100 and contains one binary gap of length 1.
 // The number 15 has binary representation 1111 and has no binary gaps.
 // The number 32 has binary representation 100000 and has no binary gaps.
-public class BinaryGap {
+public class _1_BinaryGap {
 
     public static void main(String[] args) {
         System.out.println(solution(32));
