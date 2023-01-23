@@ -38,11 +38,11 @@ public class _1_smallestPositiveNumberInArray {
 
             int smallest = 1;
 
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] == smallest) {
-                    smallest++;
-                }
+        for (int j : arr) {
+            if (j == smallest) {
+                smallest++;
             }
+        }
 
             return smallest;
         }
